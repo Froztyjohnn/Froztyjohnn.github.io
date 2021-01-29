@@ -13,6 +13,21 @@
     height: 83px;
     width: 83px;
 }
+.xbox .stick.pressed {
+    background-position: 0 0;
+}
+
+.xbox .stick.left {
+    top: 0;
+    left: 0;
+}
+
+.xbox .stick.right {
+    top: 113px;
+    left: 288px;
+}
+
+.xbox .dpad {
 
 .xbox .button {
     position: absolute;
