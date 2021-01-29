@@ -1,8 +1,9 @@
 /*BEGIN Xbox One Controller Styling*/
 .controller.xbox {
-    background: url(xbox-assets/base.svgz);
-    height: 630px;
-    width: 750px;
-    /*    margin-left: -375px;
-        margin-top: -285px;*/
+    background: url(BaseVolk.png);
+}
+
+.xbox .button {
+    position: absolute;
+    background: url(abxyVolk.png);
 }
