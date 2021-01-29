@@ -57,7 +57,7 @@
     transform: rotateY(180deg);
 }
 .xbox .face {
-    background: url(xbox-assets/dpad.svgz);
+    background: url(dpadDone.png);
     position: absolute;
     opacity: 0;
 }
