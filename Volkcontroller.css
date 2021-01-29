@@ -11,3 +11,9 @@
     position: absolute;
     background: url(abxyVolk.png);
 }
+.xbox .trigger {
+    width: 88px;
+    height: 121px;
+    background: url(triggerDone.png);
+    opacity: 0;
+}
