@@ -31,7 +31,7 @@
 .xbox .bumper {
     width: 170px;
     height: 61px;
-    background: url(xbox-assets/bumper.svgz);
+    background: url(bumperDone.png);
     opacity: 0;
 }
 
