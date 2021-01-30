@@ -2,9 +2,6 @@
     background-image: url(CherryBase.gif);
 }
 
-.ds4.white.disconnected {
-    background: url(ps4-assets/disconnected.svgz);
-}
 
 .ds4.white .trigger {
     background-image: url(ps4-white-assets/triggers.svgz);
