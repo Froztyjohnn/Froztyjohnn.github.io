@@ -4,7 +4,7 @@
 
 
 .ds4.white .trigger {
-    background-image: url(ps4-white-assets/triggers.svgz);
+    background-image: url(triggersReference.png);
 }
 
 .ds4.white .bumper {
@@ -24,9 +24,9 @@
 }
 
 .ds4.white .stick {
-    background-image: url(ps4-white-assets/sticks.svgz);
+    background-image: url(CherryThumbs.png);
 }
-
+1
 .ds4.white .face {
     background-image: url(ps4-white-assets/dpad.svgz);
 }
