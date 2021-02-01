@@ -28,7 +28,7 @@
 
 .xbox .button {
     position: absolute;
-    background: url(MagicButtons.png);
+    background: url(MagicAbxy.png);
     width: 48px;
     height: 48px;
 }
@@ -141,7 +141,7 @@
 
 
 .xbox .back, .xbox .start {
-    background: url(start-select.png);
+    background: url(MagicStart.png);
     width: 33px;
     height: 33px;
     opacity: 0;
