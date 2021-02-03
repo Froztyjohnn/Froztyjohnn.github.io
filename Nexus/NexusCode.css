@@ -1,0 +1,31 @@
+/*BEGIN PS4 White Controller Styling*/
+.controller.ds4.white {
+    background-image: url(NexusBaseDone.png);
+}
+
+.ds4.white .trigger {
+    background-image: url(NexusTrigger.png);
+}
+
+.ds4.white .bumper {
+    background-image: url(NexusBumber.png);
+}
+
+
+.ds4.white .back, .ds4 .start {
+    background-image: url(NexusStart.png);
+}
+
+.ds4.white .button {
+    background-image: url(NexusButtons.png);
+}
+
+.ds4.white .stick {
+    background-image: url(NexusSticks.png);
+}
+
+.ds4.white .face {
+    background-image: url(NexusDpad.png);
+}
+
+/*END PS4 White Controller Styling*/
