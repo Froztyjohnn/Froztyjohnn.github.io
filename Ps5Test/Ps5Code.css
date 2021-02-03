@@ -1,70 +1,38 @@
-/*BEGIN PS4 Controller Styling*/
-.controller.ds4 {
-    background: url(Ps5Base.png);
-    height: 598px;
-    width: 806px;
-    /*    margin-left: -403px;
-        margin-top: -280px;*/
+/*BEGIN PS4 White Controller Styling*/
+.controller.ds4.white {
+    background-image: url(Ps5Base.png);
 }
 
-.ds4.disconnected {
+.ds4.white.disconnected {
     background: url(ps4-assets/disconnected.svgz);
 }
 
-.ds4.disconnected div {
-    display: none;
+.ds4.white .trigger {
+    background-image: url(ps4-white-assets/triggers.svgz);
 }
 
-.ds4 .triggers {
-    width: 588px;
-    height: 90px;
-    position: absolute;
-    left: 109px;
+.ds4.white .bumper {
+    background-image: url(ps4-white-assets/bumper.svgz);
 }
 
-.ds4 .trigger {
-    width: 99px;
-    height: 100%;
-    background: url(ps4-assets/triggers.svgz);
-    opacity: 0;
+.ds4.white .touchpad.pressed {
+    background-image: url(ps4-white-assets/touchpad.svgz);
 }
 
-.ds4 .trigger.left {
-    float: left;
+.ds4.white .back, .ds4 .start {
+    background-image: url(ps4-white-assets/start.svgz);
 }
 
-.ds4 .trigger.right {
-    float: right;
-    background-position-x: 99px;
+.ds4.white .button {
+    background-image: url(ps4-white-assets/face.svgz);
 }
 
-.ds4 .bumper {
-    width: 99px;
-    height: 23px;
-    background: url(ps4-assets/bumper.svgz) no-repeat;
-    opacity: 0;
+.ds4.white .stick {
+    background-image: url(ps4-white-assets/sticks.svgz);
 }
 
-.ds4 .bumpers {
-    position: absolute;
-    width: 588px;
-    height: 23px;
-    left: 109px;
-    top: 94px;
+.ds4.white .face {
+    background-image: url(ps4-white-assets/dpad.svgz);
 }
 
-.ds4 .bumper.pressed {
-    opacity: 1;
-}
-
-.ds4 .bumper.left {
-    /* -webkit-transform: rotateY(180deg); */
-    /* transform: rotateY(180deg); */
-    float: left;
-}
-
-.ds4 .bumper.right {
-    float: right;
-    transform: rotateY(180deg);
-}
-
+/*END PS4 White Controller Styling*/
