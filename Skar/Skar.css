@@ -1,0 +1,36 @@
+/*BEGIN PS4 White Controller Styling*/
+.controller.ds4.white {
+    background-image: url(SkarBase.png);
+}
+
+.ds4.white.disconnected {
+    background: url(ps4-assets/disconnected.svgz);
+}
+
+.ds4.white .trigger {
+    background-image: url(SkarTrigger.png);
+}
+
+.ds4.white .bumper {
+    background-image: url(SkarBumper.png);
+}
+
+.ds4.white .touchpad.pressed {
+    background-image: url(ps4-white-assets/touchpad.svgz);
+}
+
+.ds4.white .back, .ds4 .start {
+    background-image: url(SkarStart.png);
+}
+
+.ds4.white .button {
+    background-image: url(SkarButtons.png);
+}
+
+.ds4.white .stick {
+    background-image: url(SkarSticks.png);
+}
+
+.ds4.white .face {
+    background-image: url(SkarDpad.png);
+}
