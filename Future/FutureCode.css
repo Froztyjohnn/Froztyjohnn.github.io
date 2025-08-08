@@ -7,6 +7,58 @@
         margin-top: -285px;*/
 }
 
+.xbox .triggers {
+    width: 446px;
+    height: 121px;
+    position: absolute;
+    left: 152px;
+}
+
+.xbox .trigger {
+    width: 88px;
+    height: 121px;
+    background: url(trigger.png);
+    opacity: 0;
+}
+
+.xbox .trigger.left {
+    float: left;
+    background-position: 0 0;
+}
+
+.xbox .trigger.right {
+    float: right;
+    transform: rotateY(180deg);
+}
+
+.xbox .bumper {
+    width: 170px;
+    height: 61px;
+    background: url(bumperDone.png);
+    opacity: 0;
+}
+
+.xbox .bumpers {
+    position: absolute;
+    width: 536px;
+    height: 61px;
+    left: 107px;
+    top: 129px;
+}
+
+.xbox .bumper.pressed {
+    opacity: 1;
+}
+
+.xbox .bumper.left {
+    float: left;
+}
+
+.xbox .bumper.right {
+    float: right;
+    -webkit-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+}
 
 .xbox .quadrant {
     position: absolute;
@@ -16,6 +68,54 @@
     top: 258px;
     left: 354px;
     z-index: 0;
+}
+
+.xbox .p0 {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+}
+
+.xbox .p1 {
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+.xbox .p2 {
+    -webkit-transform: rotate(270deg);
+    transform: rotate(270deg);
+}
+
+.xbox .p3 {
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+.xbox .arrows {
+    position: absolute;
+    width: 141px;
+    height: 33px;
+    top: 264px;
+    left: 306px;
+}
+
+.xbox .back, .xbox .start {
+    background: url(start-select.png);
+    width: 33px;
+    height: 33px;
+    opacity: 0;
+}
+
+.xbox .back.pressed, .xbox .start.pressed {
+    opacity: 1;
+}
+
+.xbox .back {
+    float: left;
+}
+
+.xbox .start {
+    background-position: 33px 0px;
+    float: right;
 }
 
 .xbox .abxy {
@@ -63,7 +163,6 @@
     top: 7px;
 }
 
-
 .xbox .sticks {
     position: absolute;
     width: 371px;
@@ -93,61 +192,14 @@
     top: 113px;
     left: 288px;
 }
-.xbox .trigger {
-    width: 88px;
-    height: 121px;
-    background: url(trigger.png);
-    opacity: 0;
-}
 
-.xbox .trigger.left {
-    float: left;
-    background-position: 0 0;
-}
-
-.xbox .trigger.right {
-    float: right;
-    transform: rotateY(180deg);
-}
-
-.xbox .bumper {
-    width: 170px;
-    height: 61px;
-    background: url(bumperDone.png);
-    opacity: 0;
-}
-
-.xbox .bumpers {
+.xbox .dpad {
     position: absolute;
-    width: 536px;
-    height: 61px;
-    left: 107px;
-    top: 129px;
+    width: 110px;
+    height: 111px;
+    top: 345px;
+    left: 223px;
 }
-
-.xbox .bumper.pressed {
-    opacity: 1;
-}
-
-.xbox .bumper.left {
-    float: left;
-}
-
-.xbox .bumper.right {
-    float: right;
-    -webkit-transform: rotateY(180deg);
-    transform: rotateY(180deg);
-}
-
-
-.xbox .back, .xbox .start {
-    background: url(start-select.png);
-    width: 33px;
-    height: 33px;
-    opacity: 0;
-}
-
-
 
 .xbox .face {
     background: url(dpadDone.png);
@@ -189,3 +241,13 @@
     top: 38px;
     right: 0;
 }
+
+.xbox.half {
+    margin-top: -315px;
+}
+
+.xbox {
+    background: no-repeat center;
+}
+
+/*END Xbox One Controller Styling*/
