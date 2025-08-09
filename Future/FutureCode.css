@@ -34,7 +34,7 @@
 .xbox .bumper {
     width: 170px;
     height: 61px;
-    background: url(bumperDone.png);
+    background: url(bumper.png);
     opacity: 0;
 }
 
@@ -62,7 +62,7 @@
 
 .xbox .quadrant {
     position: absolute;
-    background: url(MarikoQuadrant.png);
+    background: url(quadrant.png);
     height: 45px;
     width: 45px;
     top: 258px;
@@ -202,7 +202,7 @@
 }
 
 .xbox .face {
-    background: url(dpadDone.png);
+    background: url(dpad.png);
     position: absolute;
     opacity: 0;
 }
